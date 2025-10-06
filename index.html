@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voila</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rufina:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="body">
+    <div id="container">
+        <div class="announcement-bar">
+            <div class="announcement-bar-text Poppins">
+                <p>FREE SHIPPING FOR ALL ORDERS $125+ (U.S. ONLY)</p>
+            </div>
+        </div>
+    </div>
+    <header class="header-wrapper">
+        <div>
+            <div class="header-content">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header-logo">
+                    <a href="#"><img src="image\new-logo.svg" alt="logo" width="100%" height="100%"></a>
+                </div>
+                <div class="navigation-bar">
+                    <ul class="navigation-links flex">
+                        <li style="margin-right: 15px;"><a href="#">Home</a></li>
+                        <li class="links-content show-mega-menu flex">
+                            <a href="#">Shop</a>
+                            <span>
+                                <svg class="icon icon-caret dropbtn" width="10px" height="10px" viewBox="0 0 10 2">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                            <!-- Dropdown Menu -->
+                            <ul class="Shop-mega-menu block-image-content Poppins flex absolute">
+                                <li class="Shop-mega-menu-links flex">
+                                    <ul class="Shop-mega-menu-links-content flex">
+                                        <li><strong class="Shop-mega-menu-heading">Ulimate Treat pouch</strong></li>
+                                        <li>Mini</li>
+                                        <li>Standard</li>
+                                        <li>Large</li>
+                                        <li>Sealabel</li>
+                                        <li>Shop All</li>
+                                    </ul>
+                                    <ul class="Shop-mega-menu-links-content flex">
+                                        <li><strong class="Shop-mega-menu-heading">Accessories</strong></li>
+                                        <li>Carabiner</li>
+                                        <li>Adventure Clip</li>
+                                        <li>Mini Adventure Clip</li>
+                                        <li>Essential Hat</li>
+                                        <li>Shop All</li>
+                                    </ul>
+                                </li>
+                                <li class="mega-menu-image-collection-wrapper flex">
+                                    <div class="mega-menu-block-image">
+                                        <a href="#">
+                                            <img src="image\gray-pouch.png" alt="gray-pouch" width="100%" height="100%">
+                                            <h4>Shop All</h4>
+                                        </a>
+                                    </div>
+                                    <div class="mega-menu-block-image">
+                                        <a href="#">
+                                            <img src="image\yellow-pouch.png" alt="yellow-pouch" width="100%"
+                                                height="100%">
+                                            <h4>Ultimate Treat Pouch</h4>
+                                        </a>
+                                    </div>
+                                    <div class="mega-menu-block-image">
+                                        <a href="#">
+                                            <img src="image\pink-pouch.png" alt="pink-pouch" width="100%" height="100%">
+                                            <h4>Accessories</h4>
+                                        </a>
+                                    </div>
+                                    <div class="mega-menu-block-image">
+                                        <a href="#">
+                                            <img src="image\purple-pouch.png" alt="purple-pouch" width="100%"
+                                                height="100%">
+                                            <h4>Best Sellers</h4>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="links-content dropdown flex">
+                            <a href="#">About Us</a>
+                            <span>
+                                <svg class="icon icon-caret dropbtn" width="10px" height="10px" viewBox="0 0 10 2">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                            <!-- Dropdown Menu -->
+                            <ul class="mega-menu Poppins flex absolute">
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Gallery</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">FAQs</a></li>
+                        <li style="margin-left: 15px;"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="header-icons">
+                    <ul class="navigation-icons flex">
+                        <li id="searchBarOpen">
+                            <a href="#"><span class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
+                                        viewBox="0 0 256 256" focusable="false"
+                                        color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))"
+                                        style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); color: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); flex-shrink: 0;">
+                                        <g color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))"
+                                            weight="regular">
+                                            <path
+                                                d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li> |
+                        <li>
+                            <a href="html\login.html"><span class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                        width="24px" height="24px"
+                                        color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))"
+                                        style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); color: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); flex-shrink: 0;">
+                                        <g color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))"
+                                            weight="regular">
+                                            <path
+                                                d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li> |
+                        <li id="cart-icon">
+                            <a href="#"><span class="svg-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false"
+                                        width="24px" height="24px"
+                                        color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))"
+                                        style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); color: var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111)); flex-shrink: 0;">
+                                        <g color="var(--token-a84689ca-fde2-4e43-a612-bf54685e150b, rgb(67, 87, 111))"
+                                            weight="regular">
+                                            <path
+                                                d="M136,120v56a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm36.84-.8-5.6,56A8,8,0,0,0,174.4,184a7.32,7.32,0,0,0,.81,0,8,8,0,0,0,7.95-7.2l5.6-56a8,8,0,0,0-15.92-1.6Zm-89.68,0a8,8,0,0,0-15.92,1.6l5.6,56a8,8,0,0,0,8,7.2,7.32,7.32,0,0,0,.81,0,8,8,0,0,0,7.16-8.76ZM239.93,89.06,224.86,202.12A16.06,16.06,0,0,1,209,216H47a16.06,16.06,0,0,1-15.86-13.88L16.07,89.06A8,8,0,0,1,24,80H68.37L122,18.73a8,8,0,0,1,12,0L187.63,80H232a8,8,0,0,1,7.93,9.06ZM89.63,80h76.74L128,36.15ZM222.86,96H33.14L47,200H209Z">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </a>
+                        <li class="cart-drawer hidden absolute" id="hamburgerMenu">
+                            <div class="cart-page">
+                                <div class="close-cart-page">
+                                    <button id="close-cart" class="cross flex border-none"><i class="fa-solid fa-xmark"
+                                            style="color:rgba(55, 73, 95, 0.527);"></i></button>
+                                </div>
+                                <div class="cart-page-text-content flex">
+                                    <div>
+                                        <h3 style="color:rgba(39, 50, 63, 0.863);">Your cart is empty</h3>
+                                    </div>
+                                    <div>
+                                        <button class="primary-button border-none">Continue Shopping</button>
+                                    </div>
+                                    <div class="cart-account-info Poppins">
+                                        <div>
+                                            <h4 style="color:rgba(39, 50, 63, 0.863);">Have an account?</h4>
+                                        </div>
+                                        <div>
+                                            <span
+                                                style="font-weight: 400; letter-spacing: 0.6px; color: rgba(39, 50, 63, 0.863)"><a
+                                                    href="#"
+                                                    style="color: rgba(55, 73, 95, 0.664); border-bottom: 1px solid rgba(39, 50, 63, 0.863); padding-bottom: 2px;">Log
+                                                    in</a> to check out
+                                                faster.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search-bar deactive">
+                <div class="search-bar-inner flex">
+                    <div class="search-input flex">
+                        <div class="group">
+                            <input required="" type="text" class="input border-none">
+                            <span class="highlight absolute"></span>
+                            <span class="bar"></span>
+                            <label class="absolute"
+                                style="font-family: Poppins; font-weight: 300; font-size: 13px;">Search</label>
+                        </div>
+                        <div class="search-icon">
+                            <span class="svg-wrapper">
+                                <svg fill="none" class="icon icon-search" viewBox="0 0 18 19" width="18px"
+                                    height="18px">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M11.03 11.68A5.784 5.784 0 1 1 2.85 3.5a5.784 5.784 0 0 1 8.18 8.18m.26 1.12a6.78 6.78 0 1 1 .72-.7l5.4 5.4a.5.5 0 1 1-.71.7z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="search-bar-close">
+                        <button class="border-none" onclick="searchBarClose()"><i class="fa-solid fa-xmark"
+                                style="color:rgba(55, 73, 95, 0.527);"></i></button>
+                    </div>
+                </div>
+                <div class="search-background absolute"></div>
+            </div>
+        </div>
+    </header>
+    <section class="main-banner">
+        <div class="banner-section">
+            <div class="banner-section-video">
+                <video width="100%" autoplay muted loop>
+                    <source src="image\banner-video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="banner-text-content">
+                <div class="banner-text flex">
+                    <h2>The ultimate treat pouch</h2>
+                    <a href="#" class="banner-info-yours Poppins">Get Yours</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="image-with-text-wrapper">
+            <div class="page-width">
+                <div class="image-with-text-inner flex">
+                    <div class="image-with-text-cards">
+                        <div class="image-with-text-img">
+                            <a href="#"><img src="C:\Users\Itgeeks\Documents\Voila-Homepage\image\IMG_0061.webp"
+                                    alt="dog and women"></a>
+                        </div>
+                    </div>
+                    <div class="image-with-text-cards">
+                        <div class="image-with-text-content flex">
+                            <div>
+                                <h2>Welcome!</h2>
+                            </div>
+                            <div>
+                                <p class="sub-heading">At Voilà, we believe that the relationship between people and
+                                    their
+                                    pets is one of life's most meaningful connections.We're dedicated to crafting
+                                    thoughtful and stylish products with an emphasis on quality and sustainability. Our
+                                    mission - to bring ease and joy into your everyday moments with your beloved pets!
+                                    Voilà!</p>
+                            </div>
+                            <div>
+                                <button class="primary-button border-none">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-with-text-cards">
+                        <div class="image-with-text-img">
+                            <a href="#"><img src="C:\Users\Itgeeks\Documents\Voila-Homepage\image\IMG_0045.jpg"
+                                    alt="dog and men"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>New Arrival</h2>
+        </div>
+
+    </section>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
